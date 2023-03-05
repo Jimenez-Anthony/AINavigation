@@ -10,8 +10,8 @@ public class RandomSpawnCircle : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z)) SpawnObjectTwenty();
-        if (Input.GetKeyDown(KeyCode.X)) SpawnObjectTwenty();
-        if (Input.GetKeyDown(KeyCode.C)) SpawnObjectTwenty();
+        if (Input.GetKeyDown(KeyCode.X)) SpawnObjectThirty();
+        if (Input.GetKeyDown(KeyCode.C)) SpawnObjectHundred();
 
     }
 
